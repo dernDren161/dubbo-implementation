@@ -21,3 +21,14 @@ The Consumer is exposed at `localhost:8080/hello` as REST
 This implementation does not use any sort of service registry and discovery as it directly redirects the consumer to port `12345`.
 For further implementation, add the `zookeeper` dependency and configure the registry address.
 
+The Required `zookeeper dependency
+
+`<dependency>
+        <groupId>org.apache.dubbo</groupId>
+        <artifactId>dubbo-dependencies-zookeeper</artifactId>
+        <version>2.7.2<</version>
+        <type>pom</type>
+</dependency>
+  `
+
+
