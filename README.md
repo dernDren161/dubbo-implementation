@@ -17,3 +17,7 @@ The Service is exposed in `dubbo://127.0.0.1:12345`
 
 The Consumer is exposed at `localhost:8080/hello` as REST
 
+##### Note:
+This implementation does not use any sort of service registry and discovery as it directly redirects the consumer to port `12345`.
+For further implementation, add the `zookeeper` dependency and configure the registry address.
+
