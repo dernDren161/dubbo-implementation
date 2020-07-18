@@ -28,13 +28,13 @@ The Required `zookeeper dependency
         <artifactId>dubbo-dependencies-zookeeper</artifactId>
         <version>2.7.2<</version>
         <type>pom</type>
-</dependency>
+</dependency>`
         
  
- ###### The method used in this tutorial simply bypasses the registry as we already know the address of the provider.
- ###### Hence no middleman `registry` is required here.
- ###### This is a rather simple implementation without either of a registry or service discovery.
- ###### This is commonly known as a Peer-to-Peer invocation method in Apache Dubbo.
+ ##### The method used in this tutorial simply bypasses the registry as we already know the address of the provider.
+ ##### Hence no middleman `registry` is required here.
+ ##### This is a rather simple implementation without either of a registry or service discovery.
+ ##### This is commonly known as a Peer-to-Peer invocation method in Apache Dubbo.
   `
 
 
